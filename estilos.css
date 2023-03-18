@@ -1,0 +1,40 @@
+
+footer{
+    color: blueviolet;
+    font-size: large;
+}
+
+body{
+   background-color: rgb(127, 182, 255);
+}
+
+h1{
+    background-color: rgb(43, 189, 226);
+    font-size: 50px;
+}
+
+h2{
+    color: rgb(255, 94, 0);
+    font-size: 30px;
+}
+
+img{
+    src:images/foto.png;
+    width: 150px;
+    height: 150px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    color: rgb(255, 80, 153);
+    font-size: 30px;   
+}
+
+nav{
+    color: #795218;
+    font-size: 25px;   
+}
