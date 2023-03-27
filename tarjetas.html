@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="./Estilos/juego.css" />
+  <link rel="stylesheet" type="text/css" href="./Estilos/toggle.css" />
+
+  <title>Juego</title>
+</head>
+
+<body>
+  <div id="container">
+    <div class="toggle"></div>
+  </div>
+  <div class="juego">
+    <label for="marca">Tarjeta 1</label>
+    <input type="text" id="resultado" disabled />
+    <label for="marca">Tarjeta 2</label>
+    <input type="text" id="resultado2" disabled />
+
+    <button id="1" onclick="tocar(1)">T</button>
+    <button id="2" onclick="tocar(2)">T</button>
+    <button id="3" onclick="tocar(3)">T</button>
+    <button id="4" onclick="tocar(4)">T</button>
+    <button id="5" onclick="tocar(5)">T</button>
+    <button id="6" onclick="tocar(6)">T</button>
+    <button id="7" onclick="tocar(7)">T</button>
+    <button id="8" onclick="tocar(8)">T</button>
+  </div>
+
+  <div class="empezar">
+    <button id="empezar" onclick="logica()">Reiniciar</button>
+  </div>
+
+  <script src="./js/juego.js"></script>
+  <script src="./js/toggle.js"></script>
+</body>
+
+</html>

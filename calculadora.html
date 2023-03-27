@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="./Estilos/calculadora.css">
+    <link rel="stylesheet" type="text/css" href="./Estilos/toggle.css">
+  </head>
+  <body>
+    <div id="container">
+        <div class="toggle"></div>
+      </div>
+    <div class="calculadora">
+      <input type="text" id="resultado">
+
+      <button onclick="insertar('7')">7</button>
+      <button onclick="insertar('8')">8</button>
+      <button onclick="insertar('9')">9</button>
+      <button onclick="operacion('/')">/</button>
+      <button onclick="insertar('4')">4</button>
+      <button onclick="insertar('5')">5</button>
+      <button onclick="insertar('6')">6</button>
+      <button onclick="operacion('*')">*</button>
+      <button onclick="insertar('1')">1</button>
+      <button onclick="insertar('2')">2</button>
+      <button onclick="insertar('3')">3</button>
+      <button onclick="operacion('-')">-</button>
+      <button onclick="insertar('0')">0</button>
+      <button onclick="insertar('.')">.</button>
+      <button onclick="igual()">=</button>
+      <button onclick="operacion('+')">+</button>
+      <button onclick="limpiar()">C</button>
+      <button onclick="borrar()">CE</button>
+    </div>
+    <script src="./js/calculadora.js"></script>
+    <script src="./js/toggle.js"></script>
+  </body>
+</html>
